@@ -1,0 +1,80 @@
+/* Styles for the Navbar */
+.navbar {
+    background-color: #fff; /* Default light theme background */
+    padding: 10px 20px;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition for background and text */
+}
+  
+.SerachInput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth input field transition */
+}
+  
+.theme-icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease, color 0.5s ease; /* Adding transition to icon color */
+}
+
+.rotate {
+    transform: rotate(360deg);
+}
+
+/* Dark Theme Styles */
+.dark-theme {
+    background-color: #333;
+    color: white;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition for background and text */
+}
+
+.theme-toggle-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition for button colors */
+}
+
+.theme-toggle-btn .theme-icon {
+    color: #333; /* Default icon color for light mode */
+    transition: color 0.5s ease; /* Smooth transition for icon color */
+}
+
+.dark-theme .theme-toggle-btn .theme-icon {
+    color: #f8f9fa; /* Light icon color for dark mode */
+    transition: color 0.5s ease; /* Smooth transition for icon color */
+}
+
+.dark-theme .navbar {
+    background-color: #333; /* Dark theme background */
+    color: white; /* Text color in dark mode */
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition for background and text */
+}
+
+/* Styling for the Logout Button */
+.btn {
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition for button */
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+    transition: background-color 0.5s ease; /* Smooth transition for dark button background */
+}
+
+.text-white {
+    color: white !important;
+    transition: color 0.5s ease; /* Smooth transition for text color */
+}
+
+/* Light mode icon transition */
+.navbar {
+    transition: background-color 0.5s ease, color 0.5s ease; /* Apply same transition for light mode */
+}
+
+/* Ensure smooth transition on both light and dark mode */
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
